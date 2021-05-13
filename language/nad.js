@@ -15,19 +15,19 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*「❗」LEVELMU MASIH KOSONG*`
+	return`*「❗」LEVELMU todavia vacio*`
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*「❗」El nivel no ha sido activado*`
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM VERIFIKASI「❗」*\n\nketik : @verify`
+	return`*「❗」necesitas estar verificado「❗」*\n\nescriba : @verify`
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*「❗」LO SIENTO, LO SIENTO HERMANO, PERO ME PROHIBIERON JSKDJASJDEQWQJQ*`
 }
 
 exports.premium = (prefix) => {
@@ -112,8 +112,8 @@ Upgrade premium bosku, biar bebas gunain bot`
 exports.uangkau = (pushname, sender, uangkau) => {
 	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓
 ┃╭───────────────────
-┃│➸ NAMA : ${pushname}
-┃│➸ NOMOR : ${sender.split("@")[0]}
+┃│➸ NOMBRE : ${pushname}
+┃│➸ NUMERO : ${sender.split("@")[0]}
 ┃│➸ UANG : ${uangkau}
 ┃╰───────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛`
