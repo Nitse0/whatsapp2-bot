@@ -19,7 +19,7 @@ exports.lvlnul = () => {
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*「❗」Porcentaje de nivel no está activo*`
 }
 
 exports.noregis = () => {
@@ -27,7 +27,7 @@ exports.noregis = () => {
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*「❗」SORRY SORRY, BRO*`
 }
 
 exports.premium = (prefix) => {
@@ -38,15 +38,15 @@ Ketik : ${prefix}owner`
 }
 
 exports.rediregis = () => {
-	return`*Kamu sudah melakukan verify -_-*`
+	return`*Ya estás verificado*`
 }
 
 exports.stikga = () => {
-	return`*「 GAGAL 」Coba reply/tag ulang kak*`
+	return`*「 ERROR 」Intenta reponder/o vuelve a etiquetar*`
 }
 
 exports.linkga = () => {
-	return`*「❗」maaf linknya tidak valid kak*`
+	return`*「❗」Lo siento, el enlace no es valido*`
 }
 
 exports.groupo = () => {
@@ -66,32 +66,32 @@ exports.admin = () => {
 }
 
 exports.badmin = () => {
-	return`*「❗」BOT HARUS JADI ADMIN*`
+	return`*「❗」El BOT debe ser ADMIN*`
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*Se ha informado problemas al propietario del BOT, no se respondera a los informes falsos*`
 }
 
 exports.wrongf = () => {
-	return`*「🗿」Teks nya mana kak?*`
+	return`*「🗿」Dónde está el texto, bruh?*`
 }
 
 exports.clears = () => {
-	return`*Sukses bosku*`
+	return`*C0ÑO*`
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
 *「 SELAMAT 」*
-\`\`\`➸ Nama : ${pushname}\`\`\`
-\`\`\`➸ Nomor : wa.me/${sender.split("@")[0]}\`\`\`
+\`\`\`➸ Nombre : ${pushname}\`\`\`
+\`\`\`➸ número : wa.me/${sender.split("@")[0]}\`\`\`
 \`\`\`➸ Xp : ${getLevelingXp(sender)}\`\`\`
-\`\`\`➸ Level : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
+\`\`\`➸ Nivel : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
 `}
  
 exports.limitend = (pushname, prefix) => {
-	return`*maaf ${pushname} limit hari ini habis*
+	return`*lo siento ${pushname} el limite de hoy se acabo*
 *Limit di reset setiap jam 24:00*
 
 \`\`\`Upgrade Premium Bebas Limit\`\`\`
@@ -120,13 +120,13 @@ exports.uangkau = (pushname, sender, uangkau) => {
 }
 
 exports.donasi = () => {
-return`*DONASI KAK*
-Pulsa : 0812-1444-1027
-Gopay : 0855-5924-0360
-Dana : 0855-5924-0360
-Saweria : https://saweria.co/ramlangans
+return`*DONAR*
+Pulsa : 666
+Gopay : 666
+Dana : 666
+Saweria : https://github.com/Nitse0
 
-Donasi supaya bot terus update & Aktif`
+Qué haces?`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
